@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Auriga"><parameter name="appURL" value="http://faida.com/"/><parameter name="browserType" value="firefox"/>
+<test name="faida">
+<classes>
+<class name="com.auriga.tests.SignInTest"/> 
+  
+</classes>
+</test>
+</suite>

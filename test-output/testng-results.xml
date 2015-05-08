@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Auriga" duration-ms="22828" started-at="2015-05-07T12:11:04Z" finished-at="2015-05-07T12:11:27Z">
+    <groups>
+    </groups>
+    <test name="faida" duration-ms="22828" started-at="2015-05-07T12:11:04Z" finished-at="2015-05-07T12:11:27Z">
+      <class name="com.auriga.tests.SignInTest">
+        <test-method status="PASS" signature="logsetup()[pri:0, instance:com.auriga.tests.SignInTest@2599c538]" name="logsetup" is-config="true" duration-ms="333" started-at="2015-05-07T17:41:04Z" finished-at="2015-05-07T17:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logsetup -->
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.auriga.tests.SignInTest@2599c538]" name="initializeTestBaseSetup" is-config="true" duration-ms="11897" started-at="2015-05-07T17:41:04Z" finished-at="2015-05-07T17:41:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://faida.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.auriga.tests.SignInTest@2599c538]" name="setup" is-config="true" duration-ms="9" started-at="2015-05-07T17:41:16Z" finished-at="2015-05-07T17:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickPopUpTest()[pri:0, instance:com.auriga.tests.SignInTest@2599c538]" name="clickPopUpTest" duration-ms="419" started-at="2015-05-07T17:41:16Z" finished-at="2015-05-07T17:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPopUpTest -->
+        <test-method status="PASS" signature="addSigninDetailsTest()[pri:0, instance:com.auriga.tests.SignInTest@2599c538]" name="addSigninDetailsTest" duration-ms="2192" started-at="2015-05-07T17:41:17Z" finished-at="2015-05-07T17:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSigninDetailsTest -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:com.auriga.tests.SignInTest@2599c538]" name="Test" duration-ms="7785" started-at="2015-05-07T17:41:19Z" finished-at="2015-05-07T17:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.auriga.tests.SignInTest@2599c538]" name="tearDown" is-config="true" duration-ms="171" started-at="2015-05-07T17:41:27Z" finished-at="2015-05-07T17:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.auriga.tests.SignInTest -->
+    </test> <!-- faida -->
+  </suite> <!-- Auriga -->
+</testng-results>
